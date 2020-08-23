@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        //google() I'll be using the maven wala block of code in place of this to resolve the issue arising.
+        // Because apparently i am using an older version of gradle.
+        //And same for niche wala repository ke block me bhi.
+        jcenter()
+       /* maven {
+            url 'https://maven.google.com'
+            // An alternative URL is 'https://dl.google.com/dl/android/maven2/'
+        } */
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        //classpath 'com.google.gms:google-services:4.3.2'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+       // google()  // Google's Maven repository
+        jcenter()
+        /*maven {
+            url 'https://maven.google.com'
+            // An alternative URL is 'https://dl.google.com/dl/android/maven2/'
+        }*/
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
