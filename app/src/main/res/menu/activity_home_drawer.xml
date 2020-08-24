@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myaccount"
+            android:icon="@android:drawable/star_big_on"
+            android:title="My Account" />
+        <item
+            android:id="@+id/info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Info" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/sendfeedback"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Send Feedback" />
+            <item
+                android:id="@+id/contactus"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+    <item android:title="Logout">
+        <menu>
+            <item
+            android:id="@+id/logout"
+            android:icon="@android:drawable/star_on"
+            android:title="LogOut" />
+        </menu>
+    </item>
+    <item android:title="Credentials">
+        <menu>
+            <item
+                android:title="c Riya 2019" />
+        </menu>
+    </item>
+
+
+</menu>

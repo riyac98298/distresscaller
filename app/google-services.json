@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356844831186",
+    "firebase_url": "https://allthebest-bc81d.firebaseio.com",
+    "project_id": "allthebest-bc81d",
+    "storage_bucket": "allthebest-bc81d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356844831186:android:fc7068facf26bae33f880b",
+        "android_client_info": {
+          "package_name": "com.example.riyac.allthebest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356844831186-pd4rkcl9b50pp6duq44bfnea72gef2r5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.riyac.allthebest",
+            "certificate_hash": "9cfc2f1bc724ae7dfb503c0909889e5949d0748c"
+          }
+        },
+        {
+          "client_id": "356844831186-t627uctnnmq7n567h8g0gc4mdko9m0j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTJG0R6vYkSmRiVPMVJKfdn2mLJTRz70g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356844831186-t627uctnnmq7n567h8g0gc4mdko9m0j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
